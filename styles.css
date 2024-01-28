@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" !important;
+}
+.bx-cart {
+  font-size: clamp(15px, 6vw, 30px) !important;
+  margin-right: 10px;
+}
+.navbar-brand {
+  width: clamp(90px, 10vw, 200px) !important;
+  /* width: 10%; */
+  mix-blend-mode: multiply;
+  filter: brightness(1.2);
+  z-index: 1;
+  cursor: pointer;
+}
+.navbar-toggler {
+  font-size: clamp(15px, 5vw, 25px) !important;
+  /* background-color: red; */
+  box-shadow: none !important;
+  border: 2px solid red !important;
+}
+.bx-menu {
+  color: rgb(138, 100, 100) !important;
+  font-size: 30px;
+}
+
+.nav-link {
+  font-size: clamp(12px, 2vw, 15px) !important;
+  font-weight: 700;
+  color: rgb(65, 41, 41) !important;
+  padding: 5px !important;
+  margin: 2px;
+  transition: 0.5;
+}
+@media (min-width: 1130px) {
+  .nav-link {
+    margin: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  .nav-link {
+    padding: 10px;
+  }
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(214, 58, 58, 0.9);
+  border-radius: 5px;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  background-color: white;
+
+  outline: none;
+  box-shadow: none;
+  border: 2px solid red;
+  border-radius: 60px;
+  padding-left: 10px;
+  margin-right: -40px;
+}
+.btn0 {
+  background-color: red;
+  height: 40px;
+  width: 40%;
+  border-radius: 60px;
+  outline: none;
+  box-shadow: none !important;
+  color: white;
+}
+.cartbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  font-size: clamp(15px, 5vw, 15px) !important;
+  border: 2px solid red;
+  color: blue;
+}
+.cartbutton span {
+  font-size: clamp(8px, 2vw, 11px) !important;
+  /* font-size: 13px; */
+}
+
+.carousel-item img {
+  aspect-ratio: 5/2;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dryfruits_nuts .card img {
+  aspect-ratio: 3/2 !important;
+  /* object-fit: cover !important; */
+  padding: 20px;
+  cursor: pointer;
+}
+.dryfruits_nuts .card {
+  transition: 0.2s;
+}
+.dryfruits_nuts .card:hover {
+  box-shadow: 0 0 5px rgb(134, 132, 132);
+}
+
+.dryfruits_nuts .card {
+  border: none;
+}
+.imgcont {
+  background-color: rgb(239, 229, 212) !important;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive !important;
+  font-weight: 800;
+  font-size: clamp(20px, 5vw, 35px);
+}
+.owl-carousel .item img {
+  aspect-ratio: 3/2.4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.owl-carousel .item img:hover {
+  transform: scale(0.9);
+}
+.owl-carousel .item {
+  overflow: hidden;
+}
+
+.owl-carousel .item .card {
+  border: none;
+}
+.owl-carousel .item .card:hover {
+  background-color: aliceblue;
+}
+/* .owl-carousel .item .card{
+  transform: translateY(-5px);
+  box-shadow: 0 0 5px red;
+} */
+.owl-carousel .item {
+  background-color: white !important;
+  /* transform: translateY(px);
+    box-shadow: 0 0 5px red; */
+}
+
+.owl-prev,
+.owl-next {
+  font-size: 30px !important;
+  background-color: white !important;
+  box-shadow: 0 0 5px rgb(61, 60, 60);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  transition: 0.2s;
+}
+.owl-prev:hover,
+.owl-next:hover {
+  box-shadow: 0 0 10px rgb(61, 60, 60);
+}
+.owl-prev span {
+  color: black;
+  font-size: 30px;
+}
+.owl-next span {
+  color: black;
+  font-size: 30px;
+}
+.owl-prev {
+  top: 30%;
+  left: -50px;
+}
+.owl-next {
+  top: 30%;
+  right: -50px;
+}
+.addtocart {
+  background-color: rgba(253, 85, 85, 0.9);
+  border-radius: 50px;
+  color: white;
+  font-size: clamp(10px, 5vw, 15px);
+}
+.addtocart:hover {
+  color: white;
+  background-color: red;
+}
+.aboutus .card {
+  border: none !important;
+}
+.aboutusinformation {
+  word-break: break-all !important;
+  font-size: clamp(12px, 4.5vw, 18px) !important;
+}
+.aboutusimg {
+  aspect-ratio: 5/1.8 !important;
+  object-fit: cover;
+  filter: opacity(0.8.5);
+  border-radius: 10px;
+}
+.galleryimg {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  /* background-color: red; */
+  padding: 4px;
+  border-radius: 10px;
+  transition: .3s;
+}
+.galleryimg:hover{
+    transform: scale(0.9);
+}
+.gallerysection .card{
+    border: 2px solid rgb(143, 142, 142);
+    cursor: pointer;
+}
+
+.testimonials .card{
+    aspect-ratio: 3/1;
+
+}
+.testimonials .card-body{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(15px,5vw,30px);
+    gap: 1rem;
+    margin-bottom: -20px;
+    font-weight: 600;
+}
+.testimonials .card-body .card-text{
+    color: red;
+    font-size: clamp(10px,3vw,20px) !important;
+}
+.testimonials .card-title span{
+    font-size: clamp(30px,6vw,60px);
+    /* background-color: red; */
+    color: rgb(79, 75, 75);
+}
+.bx-chevron-left, .bx-chevron-right{
+    font-size: clamp(20px,5vw,30px);
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.bx-chevron-left:hover, .bx-chevron-right:hover{
+  box-shadow: 0 0 5px black;
+}
+
+/* .displayflexforaddress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .location{
+    height:400px;
+} */
+
+iframe{
+ width: 100%;
+ height: 100%;
+ /* height: clamp(450px,20vh,500px); */
+ border-radius: 10px;
+ background-color: rgb(110, 111, 111);
+ padding: 2px;
+}
+.mainaddress{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+.ouroffice i,.enquires i,.call i,.time i{
+    font-size: 30px;
+    color: rgb(192, 81, 81);
+    margin-bottom: 5px;
+}
+.ouroffice , .enquires,.call,.time{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.ouroffice span , .enquires span,.call span,.time span{
+    font-weight: 700;
+    color: rgb(40, 39, 39);
+}
+
+.horizontalline{
+    border: 20px solid rgb(91, 166, 252);
+}
+footer a{
+    text-decoration: none;
+}
+/* .icons{
+    display:flex;
+    flex-direction: column;
+    gap: px;
+
+} */
+@media (max-width:576px) {
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+.icons i{
+    font-size: 23px;
+    cursor: pointer;
+}
